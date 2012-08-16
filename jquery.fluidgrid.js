@@ -61,6 +61,7 @@
 //			$('.'+options.col_class_prefix + idx, $(options.list_selector)).append(this);
 			
 		});
+		$(this).css('height',Math.max.apply(null, fcols)+'px');
 	};
 
 	
